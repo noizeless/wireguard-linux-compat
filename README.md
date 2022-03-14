@@ -5,6 +5,15 @@
 
 https://git.zx2c4.com/wireguard-linux-compat/tree/?h=v1.0.20200623
 
+**Which files are changed?**
+
+For fixing build process was changed only 2 header files:
+```
+/compat/compat.h
+/compat/compat-asm.h
+```
+All other original wireguard files are not modified.
+
 **Installation**
 1) Remove installed official wireguard-dkms package if exists: ```apt remove wireguard-dkms```
 2) Download release or build debian package.
