@@ -1,0 +1,23 @@
+Package: wireguard-dkms
+Source: wireguard-linux-compat
+Version: 1.0.20200623-hiveos-5.4.0
+Architecture: all
+Maintainer: Second Coming of 0x29
+Installed-Size: 1720
+Depends: dkms (>= 2.1.0.0), perl:any
+Recommends: wireguard (>= 0.0.20191219), wireguard-tools (>= 0.0.20191219)
+Section: kernel
+Priority: optional
+Homepage: https://www.wireguard.com
+Description: fast, modern, secure kernel VPN tunnel (DKMS version)
+ WireGuard is a novel VPN that runs inside the Linux Kernel and uses
+ state-of-the-art cryptography (the "Noise" protocol). It aims to be
+ faster, simpler, leaner, and more useful than IPSec, while avoiding
+ the massive headache. It intends to be considerably more performant
+ than OpenVPN. WireGuard is designed as a general purpose VPN for
+ running on embedded interfaces and super computers alike, fit for
+ many different circumstances. It runs over UDP.
+ .
+ This package uses DKMS to automatically build the wireguard kernel
+ module.
+Original-Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
